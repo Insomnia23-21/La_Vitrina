@@ -16,7 +16,9 @@ const Home = () => {
       <div className="hero-content text-center">
         <h1 className="display-4">¡Bienvenido a La Vitrina!</h1>
         <p className="lead">Encuentra lo que necesitas al mejor precio.</p>
-        <button className="btn btn-primary btn-lg">Explorar productos</button>
+        <Link to="/gallery" className="btn btn-primary btn-lg">
+          Explorar productos
+        </Link>
       </div>
     </div>
   );
